@@ -1,0 +1,7 @@
+version: "24.0.2"
+services:
+  api-gateway:
+    build: .
+    container_name: insight-api-gateway
+    ports:
+      - 5000:5000
